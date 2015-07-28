@@ -50,7 +50,7 @@ function shingleTest(a1, a2) {
     }
     
     for(var n2 = 0; n2 < a2new.length; n2++) {
-        a2clean.push(stemGerman(a1new[n2]));
+        a2clean.push(stemGerman(a2new[n2]));
     }
     
     a1new = a1clean;
